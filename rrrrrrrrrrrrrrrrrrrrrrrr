@@ -1,0 +1,3 @@
+def rot(num):
+    return int(str(num).replace('9', '6', 1))
+print(rot(969699969696))
